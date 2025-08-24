@@ -1,0 +1,102 @@
+{
+    "result": "success",
+    "data": {
+        "uid": "2@eJxzCnVXCAlydPYGAAw0AnQ-",
+        "msg_id": "F2D00DE5-E0FD-401C-B997-E05302E3DC74@cactae.org",
+        "date": "2025-03-04T11:32:21+0100",
+        "subject": "Fwd: Test PJ a forward",
+        "from": [
+            {
+                "email": "jordan@cactae.org",
+                "name": ""
+            }
+        ],
+        "to": [
+            {
+                "email": "jordan.chapelle@infomaniak.com",
+                "name": "Jordan Pro"
+            }
+        ],
+        "cc": [],
+        "bcc": [],
+        "reply_to": [],
+        "references": "<DEFD22FA-7E8C-45EB-B79D-7C5D070148CF@cactae.org>",
+        "in_reply_to": null,
+        "priority": "normal",
+        "dkim_status": "valid",
+        "folder_id": "eJxzCnVXCAlydPYGAAw0AnQ-",
+        "folder": "BUG TRACK",
+        "st_uuid": null,
+        "resource": "/api/mail/4e617836-f371-3b26-b65b-0c0fd3dd360e/folder/eJxzCnVXCAlydPYGAAw0AnQ-/message/2",
+        "download_resource": "/api/mail/4e617836-f371-3b26-b65b-0c0fd3dd360e/folder/eJxzCnVXCAlydPYGAAw0AnQ-/message/2/download",
+        "is_draft": false,
+        "headers": {
+            "return-path": "<jordan@cactae.org>",
+            "delivered-to": "jordan.chapelle@infomaniak.com",
+            "received": [
+                "from smtp-4-9002.mail.infomaniak.ch ([10.7.10.132]) by mda-3-0334.mail.infomaniak.ch with LMTP id EIbzArXWxmciuyMA4aUHog (envelope-from <jordan@cactae.org>) for <jordan.chapelle@infomaniak.com>; Tue, 04 Mar 2025 11:32:21 +0100",
+                "from qs51p00im-qukt01072302.me.com (qs51p00im-qukt01072302.me.com [17.57.155.13]) by smtp-4-9002.mail.infomaniak.ch (Postfix) with ESMTPS id 4Z6X764sq5zZGg for <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 11:32:18 +0100 (CET)",
+                "from smtpclient.apple (qs51p00im-dlb-asmtp-mailmevip.me.com [17.57.155.28]) by qs51p00im-qukt01072302.me.com (Postfix) with ESMTPSA id 7D0336300572 for <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 10:32:10 +0000 (UTC)"
+            ],
+            "authentication-results": [
+                "mx.infomaniak.com; dmarc=none (p=none dis=none) header.from=cactae.org",
+                "mx.infomaniak.com; dkim=pass (2048-bit key; unprotected) header.d=cactae.org header.i=@cactae.org header.a=rsa-sha256 header.s=sig1 header.b=nF+b4jCH; dkim-atps=neutral",
+                "mx.infomaniak.com; spf=pass smtp.mailfrom=cactae.org"
+            ],
+            "dkim-signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=cactae.org; s=sig1; bh=dnymCf7HMQ5jIeHt28kmmQ1c71rJIFHfpaTFMj6QvBg=; h=From:Content-Type:Mime-Version:Subject:Message-Id:To:Date:x-icloud-hme; b=nF+b4jCHIaw3nxCzv+XVgeoUM7h3LlinTdSWc5HuvMbo+0Hssq6AJ3G+bkgFiOJvs  9m0lt1q+6zIz2VYZTBgmBwZZUxG9/9SYHnRNoMkSoQGRCYjdkm0NU5HXkFr4RHOmBl  toYl80QZSZT8QU4eRK3iq/eBLj+3AL7eQeSg3pSrUQsmEWiXYJrv3hWSUm3VIWVKIk  1UN6Q46AN4AW0EeJ0iujTtiuI/pC32LmM5beTp1Cdu5DQ0bWrPLeaPiFp15mWcZAs2  ljGQIH6e5haS2CWD8JrDSnkMPA23l3qjK+N9tn5BzxruuiuLsxXJqVPprhVs+uMS3u  wPrxUVMOxwYsw==",
+            "from": "jordan@cactae.org",
+            "content-type": "multipart/alternative; boundary=\"Apple-Mail=_BED8DE1B-38F6-499D-B849-188CB0695A23\"",
+            "mime-version": "1.0 (Mac OS X Mail 16.0 \\(3826.400.131.1.6\\))",
+            "subject": "Fwd: Test PJ a forward",
+            "message-id": "<F2D00DE5-E0FD-401C-B997-E05302E3DC74@cactae.org>",
+            "references": "<DEFD22FA-7E8C-45EB-B79D-7C5D070148CF@cactae.org>",
+            "to": "Jordan Pro <jordan.chapelle@infomaniak.com>",
+            "date": "Tue, 4 Mar 2025 11:31:59 +0100",
+            "x-mailer": "Apple Mail (2.3826.400.131.1.6)",
+            "x-proofpoint-guid": "4f3Gj7AVYmIAftxASZdtaP81JFXJSeoy",
+            "x-proofpoint-orig-guid": "4f3Gj7AVYmIAftxASZdtaP81JFXJSeoy",
+            "x-proofpoint-virus-version": "vendor=baseguard engine=ICAP:2.0.293,Aquarius:18.0.1093,Hydra:6.0.680,FMLib:17.12.68.34 definitions=2025-03-04_04,2025-03-03_04,2024-11-22_01",
+            "x-proofpoint-spam-details": "rule=notspam policy=default score=0 mlxscore=0 adultscore=0 mlxlogscore=397 bulkscore=0 suspectscore=0 malwarescore=0 clxscore=1030 phishscore=0 spamscore=0 classifier=scan_limit adjust=0 reason=mlx scancount=1 engine=8.19.0-2308100000 definitions=main-2503040089",
+            "x-spam-score": "-10",
+            "x-spam-detail": "gggruggvucftvghtrhhoucdtuddrgeefvddrtddtgddutddujeelucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecukffphffqofetpffktefmnecuuegrihhlohhuthemucfpsdetnecujfgrmhfjvggruggvrhfhihgvlhguucfjvggruggvrhcuufgtohhrihhnghculddquddtmdenucfjughrpefhtggguffkfhfvfffosegrtdhmrehhtdejnecuhfhrohhmpehjohhruggrnhestggrtghtrggvrdhorhhgnecuggftrfgrthhtvghrnhepteeuhfevveeuvedtudetuedvtdejjeelhfeltdffvefhvdfhffdvfeetfedtffdunecukfhppedujedrheejrdduheehrddufedpudejrdehjedrudehhedrvdeknecuvehluhhsthgvrhfuihiivgeptdenucfrrghrrghmpehinhgvthepudejrdehjedrudehhedrudefpdhhvghlohepqhhsheduphdttdhimhdqqhhukhhttddutdejvdeftddvrdhmvgdrtghomhdpmhgrihhlfhhrohhmpehjohhruggrnhestggrtghtrggvrdhorhhgpdhnsggprhgtphhtthhopedupdhrtghpthhtohepjhhorhgurghnrdgthhgrphgvlhhlvgesihhnfhhomhgrnhhirghkrdgtohhmpdhsphhfpehprghsshgmpdgukhhimhepphgrshhs",
+            "x-infomaniak-type": "ham",
+            "x-infomaniak-spam": "ham",
+            "x-infomaniak-cause": "gAAAAABnxta03sDoU8Ux8sKYLuNNqMStrpEoQIogFmLH5WKhqL0XhBQK_gmXWy48qxYACiGlgKlQ8BOcN0nFxonvhXLxhRrSnoXI4ENQ1npKrtpw2IsLXgDatllbVxm5s6vGg6eeBrZ-BUL6sJKfPIpzWRaUZTXBCXHB3gXUH4JRu3plFwNGbwFOmMEfVFy-DRAAv10fGnE1xT0vjIrbXyhkMIvrA7DiK6JjbkbNJWNOTueeiMOPYS4="
+        },
+        "raw_headers": "Return-Path: <jordan@cactae.org>\r\nDelivered-To: jordan.chapelle@infomaniak.com\r\nReceived: from smtp-4-9002.mail.infomaniak.ch ([10.7.10.132])\r\n\tby mda-3-0334.mail.infomaniak.ch with LMTP\r\n\tid EIbzArXWxmciuyMA4aUHog\r\n\t(envelope-from <jordan@cactae.org>)\r\n\tfor <jordan.chapelle@infomaniak.com>; Tue, 04 Mar 2025 11:32:21 +0100\r\nAuthentication-Results: mx.infomaniak.com; dmarc=none (p=none dis=none) header.from=cactae.org\r\nAuthentication-Results: mx.infomaniak.com;\r\n\tdkim=pass (2048-bit key; unprotected) header.d=cactae.org header.i=@cactae.org header.a=rsa-sha256 header.s=sig1 header.b=nF+b4jCH;\r\n\tdkim-atps=neutral\r\nReceived: from qs51p00im-qukt01072302.me.com (qs51p00im-qukt01072302.me.com [17.57.155.13])\r\n\tby smtp-4-9002.mail.infomaniak.ch (Postfix) with ESMTPS id 4Z6X764sq5zZGg\r\n\tfor <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 11:32:18 +0100 (CET)\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cactae.org; s=sig1;\r\n\tbh=dnymCf7HMQ5jIeHt28kmmQ1c71rJIFHfpaTFMj6QvBg=;\r\n\th=From:Content-Type:Mime-Version:Subject:Message-Id:To:Date:x-icloud-hme;\r\n\tb=nF+b4jCHIaw3nxCzv+XVgeoUM7h3LlinTdSWc5HuvMbo+0Hssq6AJ3G+bkgFiOJvs\r\n\t 9m0lt1q+6zIz2VYZTBgmBwZZUxG9/9SYHnRNoMkSoQGRCYjdkm0NU5HXkFr4RHOmBl\r\n\t toYl80QZSZT8QU4eRK3iq/eBLj+3AL7eQeSg3pSrUQsmEWiXYJrv3hWSUm3VIWVKIk\r\n\t 1UN6Q46AN4AW0EeJ0iujTtiuI/pC32LmM5beTp1Cdu5DQ0bWrPLeaPiFp15mWcZAs2\r\n\t ljGQIH6e5haS2CWD8JrDSnkMPA23l3qjK+N9tn5BzxruuiuLsxXJqVPprhVs+uMS3u\r\n\t wPrxUVMOxwYsw==\r\nReceived: from smtpclient.apple (qs51p00im-dlb-asmtp-mailmevip.me.com [17.57.155.28])\r\n\tby qs51p00im-qukt01072302.me.com (Postfix) with ESMTPSA id 7D0336300572\r\n\tfor <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 10:32:10 +0000 (UTC)\r\nFrom: jordan@cactae.org\r\nContent-Type: multipart/alternative;\r\n\tboundary=\"Apple-Mail=_BED8DE1B-38F6-499D-B849-188CB0695A23\"\r\nMime-Version: 1.0 (Mac OS X Mail 16.0 \\(3826.400.131.1.6\\))\r\nSubject: Fwd: Test PJ a forward\r\nMessage-Id: <F2D00DE5-E0FD-401C-B997-E05302E3DC74@cactae.org>\r\nReferences: <DEFD22FA-7E8C-45EB-B79D-7C5D070148CF@cactae.org>\r\nTo: Jordan Pro <jordan.chapelle@infomaniak.com>\r\nDate: Tue, 4 Mar 2025 11:31:59 +0100\r\nX-Mailer: Apple Mail (2.3826.400.131.1.6)\r\nX-Proofpoint-GUID: 4f3Gj7AVYmIAftxASZdtaP81JFXJSeoy\r\nX-Proofpoint-ORIG-GUID: 4f3Gj7AVYmIAftxASZdtaP81JFXJSeoy\r\nX-Proofpoint-Virus-Version: vendor=baseguard\r\n engine=ICAP:2.0.293,Aquarius:18.0.1093,Hydra:6.0.680,FMLib:17.12.68.34\r\n definitions=2025-03-04_04,2025-03-03_04,2024-11-22_01\r\nX-Proofpoint-Spam-Details: rule=notspam policy=default score=0 mlxscore=0 adultscore=0 mlxlogscore=397\r\n bulkscore=0 suspectscore=0 malwarescore=0 clxscore=1030 phishscore=0\r\n spamscore=0 classifier=scan_limit adjust=0 reason=mlx scancount=1\r\n engine=8.19.0-2308100000 definitions=main-2503040089\r\nAuthentication-Results: mx.infomaniak.com; spf=pass smtp.mailfrom=cactae.org\r\nX-Spam-Score: -10\r\nX-Spam-Detail: gggruggvucftvghtrhhoucdtuddrgeefvddrtddtgddutddujeelucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecukffphffqofetpffktefmnecuuegrihhlohhuthemucfpsdetnecujfgrmhfjvggruggvrhfhihgvlhguucfjvggruggvrhcuufgtohhrihhnghculddquddtmdenucfjughrpefhtggguffkfhfvfffosegrtdhmrehhtdejnecuhfhrohhmpehjohhruggrnhestggrtghtrggvrdhorhhgnecuggftrfgrthhtvghrnhepteeuhfevveeuvedtudetuedvtdejjeelhfeltdffvefhvdfhffdvfeetfedtffdunecukfhppedujedrheejrdduheehrddufedpudejrdehjedrudehhedrvdeknecuvehluhhsthgvrhfuihiivgeptdenucfrrghrrghmpehinhgvthepudejrdehjedrudehhedrudefpdhhvghlohepqhhsheduphdttdhimhdqqhhukhhttddutdejvdeftddvrdhmvgdrtghomhdpmhgrihhlfhhrohhmpehjohhruggrnhestggrtghtrggvrdhorhhgpdhnsggprhgtphhtthhopedupdhrtghpthhtohepjhhorhgurghnrdgthhgrphgvlhhlvgesihhnfhhomhgrnhhirghkrdgtohhmpdhsphhfpehprghsshgmpdgukhhimhepphgrshhs\r\nX-Infomaniak-Type: ham\r\nX-Infomaniak-Spam: ham\r\nX-Infomaniak-Cause: gAAAAABnxta03sDoU8Ux8sKYLuNNqMStrpEoQIogFmLH5WKhqL0XhBQK_gmXWy48qxYACiGlgKlQ8BOcN0nFxonvhXLxhRrSnoXI4ENQ1npKrtpw2IsLXgDatllbVxm5s6vGg6eeBrZ-BUL6sJKfPIpzWRaUZTXBCXHB3gXUH4JRu3plFwNGbwFOmMEfVFy-DRAAv10fGnE1xT0vjIrbXyhkMIvrA7DiK6JjbkbNJWNOTueeiMOPYS4=\r\n\r\n",
+        "body": {
+            "value": "<html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"></head><body style=\"overflow-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;\"><br id=\"lineBreakAtBeginningOfMessage\"><div><br><blockquote type=\"cite\"><div>Début du message réexpédié :</div><br class=\"Apple-interchange-newline\"><div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;\"><span style=\"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif; color:rgba(0, 0, 0, 1.0);\"><b>De: </b></span><span style=\"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif;\">jordan@cactae.org<br></span></div><div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;\"><span style=\"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif; color:rgba(0, 0, 0, 1.0);\"><b>Objet: </b></span><span style=\"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif;\"><b>Test PJ a forward</b><br></span></div><div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;\"><span style=\"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif; color:rgba(0, 0, 0, 1.0);\"><b>Date: </b></span><span style=\"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif;\">4 mars 2025 à 11:30:59 UTC+1<br></span></div><div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;\"><span style=\"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif; color:rgba(0, 0, 0, 1.0);\"><b>À: </b></span><span style=\"font-family: -webkit-system-font, Helvetica Neue, Helvetica, sans-serif;\">Jordan Chap &lt;jordan@cactae.org&gt;<br></span></div><br><div><div>C’est moi<br></div></div></blockquote></div></body></html><hr/><html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=us-ascii\"></head><body style=\"overflow-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;\"><div><blockquote type=\"cite\"><div><div></div></div></blockquote></div><br></body></html>",
+            "type": "text/html",
+            "subBody": null
+        },
+        "has_attachments": true,
+        "attachments_resources": "/api/mail/4e617836-f371-3b26-b65b-0c0fd3dd360e/folder/eJxzCnVXCAlydPYGAAw0AnQ-/message/2/attachmentsArchive",
+        "attachments": [
+            {
+                "part_id": "2.2",
+                "mime_type": "application/pdf",
+                "encoding": "base64",
+                "size": 2928258,
+                "name": "Billet test.pdf",
+                "disposition": "inline",
+                "content_id": null,
+                "resource": "/api/mail/4e617836-f371-3b26-b65b-0c0fd3dd360e/folder/eJxzCnVXCAlydPYGAAw0AnQ-/message/2/attachment/2.2",
+                "drive_url": null
+            }
+        ],
+        "drive_url": "",
+        "seen": true,
+        "forwarded": false,
+        "answered": false,
+        "flagged": false,
+        "scheduled": false,
+        "preview": "￼",
+        "size": 2935624,
+        "bimi": {
+            "svg_content": "",
+            "is_certified": false
+        },
+        "safe_display": false,
+        "acknowledge": "none"
+    }
+}

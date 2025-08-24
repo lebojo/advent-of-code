@@ -1,0 +1,110 @@
+{
+    "result": "success",
+    "data": {
+        "uid": "3@eJxzCnVXCAlydPYGAAw0AnQ-",
+        "msg_id": "dfaa40d2f8e4506a28daa1c845ed88d5@mail.infomaniak.com",
+        "date": "2025-03-04T11:36:10+0100",
+        "subject": "Fw: Plan définitif",
+        "from": [
+            {
+                "email": "mikael.lopes@infomaniak.com",
+                "name": "Mikael Lopes"
+            }
+        ],
+        "to": [
+            {
+                "email": "jordan.chapelle@infomaniak.com",
+                "name": "Jordan Chapelle"
+            }
+        ],
+        "cc": [],
+        "bcc": [],
+        "reply_to": [
+            {
+                "email": "mikael.lopes@infomaniak.com",
+                "name": "Mikael Lopes"
+            }
+        ],
+        "references": "<2125F914-1FEB-4437-A985-F15F92DCBCD2@ktfm.ch> <e693c02c4371e4b731b48300ada7492b@mail.infomaniak.com>",
+        "in_reply_to": "<e693c02c4371e4b731b48300ada7492b@mail.infomaniak.com>",
+        "priority": "normal",
+        "dkim_status": "valid",
+        "folder_id": "eJxzCnVXCAlydPYGAAw0AnQ-",
+        "folder": "BUG TRACK",
+        "st_uuid": null,
+        "resource": "/api/mail/4e617836-f371-3b26-b65b-0c0fd3dd360e/folder/eJxzCnVXCAlydPYGAAw0AnQ-/message/3",
+        "download_resource": "/api/mail/4e617836-f371-3b26-b65b-0c0fd3dd360e/folder/eJxzCnVXCAlydPYGAAw0AnQ-/message/3/download",
+        "is_draft": false,
+        "headers": {
+            "return-path": "<mikael.lopes@infomaniak.com>",
+            "delivered-to": "jordan.chapelle@infomaniak.com",
+            "received": [
+                "from smtp-3-9001.mail.infomaniak.ch ([10.4.36.131]) by mda-3-0334.mail.infomaniak.ch with LMTP id SOnwKJrXxmd8JSQA4aUHog (envelope-from <mikael.lopes@infomaniak.com>) for <jordan.chapelle@infomaniak.com>; Tue, 04 Mar 2025 11:36:10 +0100",
+                "from smtp-190b.mail.infomaniak.ch (smtp-190b.mail.infomaniak.ch [185.125.25.11]) by smtp-3-9001.mail.infomaniak.ch (Postfix) with ESMTPS id 4Z6XCZ1C8pzDKR for <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 11:36:10 +0100 (CET)",
+                "from smtp-4-0001.mail.infomaniak.ch (smtp-4-0001.mail.infomaniak.ch [10.7.10.108]) by smtp-4-3000.mail.infomaniak.ch (Postfix) with ESMTPS id 4Z6XCZ0P8LzfK2 for <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 11:36:10 +0100 (CET)",
+                "from unknown by smtp-4-0001.mail.infomaniak.ch (Postfix) with ESMTPA id 4Z6XCY4SpZzsRy for <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 11:36:09 +0100 (CET)"
+            ],
+            "authentication-results": [
+                "mx.infomaniak.com; dmarc=pass (p=reject dis=none) header.from=infomaniak.com",
+                "mx.infomaniak.com; dkim=pass (1024-bit key; secure) header.d=infomaniak.com header.i=@infomaniak.com header.a=rsa-sha256 header.s=s1024 header.b=EmbD1zaE; dkim-atps=neutral",
+                "mx.infomaniak.com; spf=pass smtp.mailfrom=infomaniak.com"
+            ],
+            "dkim-signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=infomaniak.com; s=s1024; t=1741084569; bh=8Z8TtZ4znAe/9PWm+np+5mxixvncx5u8/+eHpujZbeM=; h=Date:Subject:From:Reply-To:To:References:In-Reply-To:From; b=EmbD1zaEn55Yl/edvdy1bHoOZhBYrR/mX7cBKwvVzBYjkXHFqMqsa1Df2OAzIblyZ  sY7nf8YnjYZEX1d0kg9kg6PlJ9eKdJWwTf+B3jEAdRvB9kjJl+H6DuR5ZJ5KdXzN6R  0dapat40zsJnDOnDoV4wxZskLUqiog0ddHEIRTJs=",
+            "message-id": "<dfaa40d2f8e4506a28daa1c845ed88d5@mail.infomaniak.com>",
+            "date": "Tue, 04 Mar 2025 11:36:09 +0100",
+            "subject": "Fw: Plan définitif",
+            "from": "Mikael Lopes <mikael.lopes@infomaniak.com>",
+            "reply-to": "Mikael Lopes <mikael.lopes@infomaniak.com>",
+            "to": "Jordan Chapelle <jordan.chapelle@infomaniak.com>",
+            "mime-version": "1.0",
+            "content-type": "multipart/alternative; boundary=\"_=_swift_1741084569_16e40e6b4f30c5628f7899b271996b4e_=_\"",
+            "x-ws-user-origin": "eyJpdiI6ImgzOS8wMHl1eG91UVUzZzc3T3dya1E9PSIsInZhbHVlIjoiYUFJODJaZDJkV2wrNUNHWDhTbEdxUT09IiwibWFjIjoiZGE3ZjE2ZTgxYzk3YzgzYWNjMzU0NDBmMDIyNjZkMzk1MjAwOWNkNmFhYzk5Y2VjN2NkNTFmMTJhNDc5YTE5MCIsInRhZyI6IiJ9",
+            "x-ws-user-mbox": "eyJpdiI6IkNlYVZWd1ErdkNFb3NyYTRoV08zM2c9PSIsInZhbHVlIjoid3VjVWc1aWpaN1VLRXhTLzRSdE01Zz09IiwibWFjIjoiYWE3NGJmMDU0ZWE3MDUwZjczNmIxMDYxNzMxMTdkMDVhZTNkMzAwOWIwNDI0YzNmYzI0OTVkYzU4OTE5NzcwNyIsInRhZyI6IiJ9",
+            "x-ws-location": "eJxzKUpMKykGAAfpAmU-",
+            "x-mailer": "Infomaniak Workspace (1.3.861)",
+            "references": "<2125F914-1FEB-4437-A985-F15F92DCBCD2@ktfm.ch> <e693c02c4371e4b731b48300ada7492b@mail.infomaniak.com>",
+            "in-reply-to": "<e693c02c4371e4b731b48300ada7492b@mail.infomaniak.com>",
+            "x-infomaniak-routing": "alpha",
+            "x-spam-score": "-110",
+            "x-spam-detail": "gggruggvucftvghtrhhoucdtuddrgeefvddrtddtgddutddukedtucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecukffphffqofetpffktefmnecuuegrihhlohhuthemucfpsdetnecusecvtfgvtghiphhivghnthhsucdlqddutddtmdenjfgrmhfjvggruggvrhfhihgvlhguucfjvggruggvrhcuufgtohhrihhnghculddquddtmdenucfjughrpefkfffuhfhrvfggtgfofhgjsegrtdhjreertdejnecuhfhrohhmpefoihhkrggvlhcunfhophgvshcuoehmihhkrggvlhdrlhhophgvshesihhnfhhomhgrnhhirghkrdgtohhmqeenucggtffrrghtthgvrhhnpeeikeeuudehueeitdevgeduhfeftdehieehjeelgedvjeeifeelgfegheefvdduteenucfkphepudekhedruddvhedrvdehrdduudenucevlhhushhtvghrufhiiigvpedtnecurfgrrhgrmhepihhnvghtpedukeehrdduvdehrddvhedruddupdhhvghlohepshhmthhpqdduledtsgdrmhgrihhlrdhinhhfohhmrghnihgrkhdrtghhpdhmrghilhhfrhhomhepmhhikhgrvghlrdhlohhpvghssehinhhfohhmrghnihgrkhdrtghomhdpnhgspghrtghpthhtohepuddprhgtphhtthhopehjohhruggrnhdrtghhrghpvghllhgvsehinhhfohhmrghnihgrkhdrtghomhdpshhpfhepphgrshhsmgdpughkihhmpehprghssh",
+            "x-infomaniak-type": "ham",
+            "x-infomaniak-spam": "ham",
+            "x-infomaniak-cause": "gAAAAABnxteaNojA2CPzgoywIU4O-NyKW10zOO-FVaWJ-k_ZDmnrWQ6P0k-AHXp2JEzoZjwu9e8_-CF_6itrrE11UESzRd5mugaBKSvV6onFDnJT-AEn_3NiwW0P4WK9qHQXNSZxhK0gkcoriDKFNrrtgbhyRraJO8Em5UEABNqi_UnCqH93sHJ90ZESVxOIAh1K1gu6cSxhtzw21nl0BAx09KFKshGUnQ1fS8SBvpGGwvE2XtZoFWQClUL4p7GRhQLzxgdm497jeTjXGVTDo41UxCu28nV_XkX-tAVyLhVv9MZ6sTbtVqE="
+        },
+        "raw_headers": "Return-Path: <mikael.lopes@infomaniak.com>\r\nDelivered-To: jordan.chapelle@infomaniak.com\r\nReceived: from smtp-3-9001.mail.infomaniak.ch ([10.4.36.131])\r\n\tby mda-3-0334.mail.infomaniak.ch with LMTP\r\n\tid SOnwKJrXxmd8JSQA4aUHog\r\n\t(envelope-from <mikael.lopes@infomaniak.com>)\r\n\tfor <jordan.chapelle@infomaniak.com>; Tue, 04 Mar 2025 11:36:10 +0100\r\nAuthentication-Results: mx.infomaniak.com; dmarc=pass (p=reject dis=none) header.from=infomaniak.com\r\nAuthentication-Results: mx.infomaniak.com;\r\n\tdkim=pass (1024-bit key; secure) header.d=infomaniak.com header.i=@infomaniak.com header.a=rsa-sha256 header.s=s1024 header.b=EmbD1zaE;\r\n\tdkim-atps=neutral\r\nReceived: from smtp-190b.mail.infomaniak.ch (smtp-190b.mail.infomaniak.ch [185.125.25.11])\r\n\tby smtp-3-9001.mail.infomaniak.ch (Postfix) with ESMTPS id 4Z6XCZ1C8pzDKR\r\n\tfor <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 11:36:10 +0100 (CET)\r\nReceived: from smtp-4-0001.mail.infomaniak.ch (smtp-4-0001.mail.infomaniak.ch [10.7.10.108])\r\n\tby smtp-4-3000.mail.infomaniak.ch (Postfix) with ESMTPS id 4Z6XCZ0P8LzfK2\r\n\tfor <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 11:36:10 +0100 (CET)\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=infomaniak.com;\r\n\ts=s1024; t=1741084569;\r\n\tbh=8Z8TtZ4znAe/9PWm+np+5mxixvncx5u8/+eHpujZbeM=;\r\n\th=Date:Subject:From:Reply-To:To:References:In-Reply-To:From;\r\n\tb=EmbD1zaEn55Yl/edvdy1bHoOZhBYrR/mX7cBKwvVzBYjkXHFqMqsa1Df2OAzIblyZ\r\n\t sY7nf8YnjYZEX1d0kg9kg6PlJ9eKdJWwTf+B3jEAdRvB9kjJl+H6DuR5ZJ5KdXzN6R\r\n\t 0dapat40zsJnDOnDoV4wxZskLUqiog0ddHEIRTJs=\r\nReceived: from unknown by smtp-4-0001.mail.infomaniak.ch (Postfix) with ESMTPA id 4Z6XCY4SpZzsRy\r\n\tfor <jordan.chapelle@infomaniak.com>; Tue,  4 Mar 2025 11:36:09 +0100 (CET)\r\nMessage-ID: <dfaa40d2f8e4506a28daa1c845ed88d5@mail.infomaniak.com>\r\nDate: Tue, 04 Mar 2025 11:36:09 +0100\r\nSubject: Fw: Plan =?utf-8?Q?d=C3=A9finitif?=\r\nFrom: Mikael Lopes <mikael.lopes@infomaniak.com>\r\nReply-To: Mikael Lopes <mikael.lopes@infomaniak.com>\r\nTo: Jordan Chapelle <jordan.chapelle@infomaniak.com>\r\nMIME-Version: 1.0\r\nContent-Type: multipart/alternative;\r\n boundary=\"_=_swift_1741084569_16e40e6b4f30c5628f7899b271996b4e_=_\"\r\nX-WS-User-Origin: eyJpdiI6ImgzOS8wMHl1eG91UVUzZzc3T3dya1E9PSIsInZhbHVlIjoiYUFJODJaZDJkV2wrNUNHWDhTbEdxUT09IiwibWFjIjoiZGE3ZjE2ZTgxYzk3YzgzYWNjMzU0NDBmMDIyNjZkMzk1MjAwOWNkNmFhYzk5Y2VjN2NkNTFmMTJhNDc5YTE5MCIsInRhZyI6IiJ9\r\nX-WS-User-Mbox: eyJpdiI6IkNlYVZWd1ErdkNFb3NyYTRoV08zM2c9PSIsInZhbHVlIjoid3VjVWc1aWpaN1VLRXhTLzRSdE01Zz09IiwibWFjIjoiYWE3NGJmMDU0ZWE3MDUwZjczNmIxMDYxNzMxMTdkMDVhZTNkMzAwOWIwNDI0YzNmYzI0OTVkYzU4OTE5NzcwNyIsInRhZyI6IiJ9\r\nX-WS-Location: eJxzKUpMKykGAAfpAmU-\r\nX-Mailer: Infomaniak Workspace (1.3.861)\r\nReferences: <2125F914-1FEB-4437-A985-F15F92DCBCD2@ktfm.ch>\r\n <e693c02c4371e4b731b48300ada7492b@mail.infomaniak.com>\r\nIn-Reply-To: <e693c02c4371e4b731b48300ada7492b@mail.infomaniak.com>\r\nX-Infomaniak-Routing: alpha\r\nAuthentication-Results: mx.infomaniak.com; spf=pass smtp.mailfrom=infomaniak.com\r\nX-Spam-Score: -110\r\nX-Spam-Detail: gggruggvucftvghtrhhoucdtuddrgeefvddrtddtgddutddukedtucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecukffphffqofetpffktefmnecuuegrihhlohhuthemucfpsdetnecusecvtfgvtghiphhivghnthhsucdlqddutddtmdenjfgrmhfjvggruggvrhfhihgvlhguucfjvggruggvrhcuufgtohhrihhnghculddquddtmdenucfjughrpefkfffuhfhrvfggtgfofhgjsegrtdhjreertdejnecuhfhrohhmpefoihhkrggvlhcunfhophgvshcuoehmihhkrggvlhdrlhhophgvshesihhnfhhomhgrnhhirghkrdgtohhmqeenucggtffrrghtthgvrhhnpeeikeeuudehueeitdevgeduhfeftdehieehjeelgedvjeeifeelgfegheefvdduteenucfkphepudekhedruddvhedrvdehrdduudenucevlhhushhtvghrufhiiigvpedtnecurfgrrhgrmhepihhnvghtpedukeehrdduvdehrddvhedruddupdhhvghlohepshhmthhpqdduledtsgdrmhgrihhlrdhinhhfohhmrghnihgrkhdrtghhpdhmrghilhhfrhhomhepmhhikhgrvghlrdhlohhpvghssehinhhfohhmrghnihgrkhdrtghomhdpnhgspghrtghpthhtohepuddprhgtphhtthhopehjohhruggrnhdrtghhrghpvghllhgvsehinhhfohhmrghnihgrkhdrtghomhdpshhpfhepphgrshhsmgdpughkihhmpehprghssh\r\nX-Infomaniak-Type: ham\r\nX-Infomaniak-Spam: ham\r\nX-Infomaniak-Cause: gAAAAABnxteaNojA2CPzgoywIU4O-NyKW10zOO-FVaWJ-k_ZDmnrWQ6P0k-AHXp2JEzoZjwu9e8_-CF_6itrrE11UESzRd5mugaBKSvV6onFDnJT-AEn_3NiwW0P4WK9qHQXNSZxhK0gkcoriDKFNrrtgbhyRraJO8Em5UEABNqi_UnCqH93sHJ90ZESVxOIAh1K1gu6cSxhtzw21nl0BAx09KFKshGUnQ1fS8SBvpGGwvE2XtZoFWQClUL4p7GRhQLzxgdm497jeTjXGVTDo41UxCu28nV_XkX-tAVyLhVv9MZ6sTbtVqE=\r\n\r\n",
+        "body": {
+            "value": "<html><head><style>.ws-ng-mail-style--11808eJwLTs0rAQADzwGb{font-family: Helvetica, Arial, sans-serif;}.ws-ng-mail-style--11808eJwLTs0rAQADzwGb,.ws-ng-mail-style--11808eJwLTs0rAQADzwGb *,.ws-ng-mail-style--11808eJwLTs0rAQADzwGb ::before,.ws-ng-mail-style--11808eJwLTs0rAQADzwGb ::after{outline: none; box-sizing: content-box; line-height: initial;}.ws-ng-mail-style--11808eJwLTs0rAQADzwGb b,.ws-ng-mail-style--11808eJwLTs0rAQADzwGb strong{font-weight: bold;}.ws-ng-mail-style--11808eJwLTs0rAQADzwGb table{border-collapse: separate;}.ws-ng-mail-style--11808eJwLTs0rAQADzwGb h1,.ws-ng-mail-style--11808eJwLTs0rAQADzwGb h2,.ws-ng-mail-style--11808eJwLTs0rAQADzwGb h3,.ws-ng-mail-style--11808eJwLTs0rAQADzwGb h4,.ws-ng-mail-style--11808eJwLTs0rAQADzwGb h5,.ws-ng-mail-style--11808eJwLTs0rAQADzwGb h6{color: unset;}.ws-ng-mail-style--11808eJwLTs0rAQADzwGb a{line-height: inherit; color: var(--mail-content-link-color);}.ws-ng-mail-style--11808eJwLTs0rAQADzwGb p{display: block; margin-block: 1em; margin-inline: 0px;}.ws-ng-mail-style--11808eJwLTs0rAQADzwGb img:not([width]):not([height]):not([style*=\"width\"]):not([style*=\"height\"]){max-width: 100%;}</style></head><body><div style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px\">Salut Jordan, voici l'e-mail</div><div ><div style=\"width: 100%;\"><div style=\"float: left; margin-right: 20px;\"><div style=\"background-color: #0098ff; width: 45px; height: 45px; text-align: center; line-height: 45px; font-family: Arial; color: #ffffff; border-radius: 4px; font-size: 26px;\"><b>k</b><br></div></div><div style=\"margin-left: 65px;\"><h1 style=\"font-family: Arial; font-size: 22px; color: #0098ff; line-height: 22px; margin-bottom: 7px;\"><b>infomaniak</b><br></h1><p style=\"margin: 0px;\"><span class=\"colour\" style=\"color:rgb(102, 102, 102)\"><span class=\"font\" style=\"font-family:Arial\"><span class=\"size\" style=\"font-size:15px\">Mikael&nbsp;Lopes |&nbsp;Marketing Manager&nbsp;</span></span></span><br></p><div style=\"margin: 15px 0px 15px 0px; height: 1px; color: #ebebeb; background-color: #e0e0e0; border: none;\" width=\"400px\"><br></div><div style=\"font-family: Arial; font-size: 12px; color: #666666; margin-bottom: 10px;\">&nbsp;<br></div><div style=\"font-family: Arial; font-size: 12px; color: #666666; margin-bottom: 7px;\">Rue Eugène-Marziano 25, 1227 Genève<br></div><div><span class=\"colour\" style=\"color:rgb(212, 68, 68)\"><b><span class=\"font\" style=\"font-family:Arial\"><span class=\"size\" style=\"font-size:12px\">Swiss Made</span></span></b></span><span class=\"colour\" style=\"color:rgb(224, 224, 224)\">&nbsp;|&nbsp;</span><span class=\"colour\" style=\"color:rgb(102, 102, 102)\"><span class=\"font\" style=\"font-family:Arial\"><span class=\"size\" style=\"font-size:12px\">ISO 27001 14001 50001 9001</span></span></span><br></div></div></div><p><br></p></div><div style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px\"><br></div><div ><div>---------- Message transféré ---------<br></div><div>De : Mikael Lopes &lt;mikael.lopes@infomaniak.com&gt;<br></div><div>Date : 2025-01-24T09:27:11.000+01:00<br></div><div>Sujet : Fw: Plan définitif<br></div><div>À : Jordan Chapelle &lt;jordan.chapelle@infomaniak.com&gt;<br></div><div><br></div><div><br></div><div class=\"ws-ng-mail-style--11808eJwLTs0rAQADzwGb\"><div style=\"font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\">Salut, pour ton info<br></div><div><div style=\"width:100%;\"><div style=\"float:left;margin-right:20px;\"><div style=\"background-color:#0098ff;width:45px;height:45px;text-align:center;line-height:45px;font-family:Arial;color:#ffffff;border-radius:4px;font-size:26px;\"><b>k</b><br></div></div><div style=\"margin-left:65px;\"><h1 style=\"font-family:Arial;font-size:22px;color:#0098ff;line-height:22px;margin-bottom:7px;\"><b>infomaniak</b><br></h1><p style=\"margin:0px;\"><span class=\"colour\" style=\"color:rgb(102, 102, 102)\"><span class=\"font\" style=\"font-family:Arial\"><span class=\"size\" style=\"font-size:15px\">Mikael&nbsp;Lopes |&nbsp;Marketing Manager&nbsp;</span></span></span><br></p><div style=\"margin:15px 0px 15px 0px;height:1px;color:#ebebeb;background-color:#e0e0e0;border:none;\" width=\"400px\"><br></div><div style=\"font-family:Arial;font-size:12px;color:#666666;margin-bottom:10px;\">&nbsp;<br></div><div style=\"font-family:Arial;font-size:12px;color:#666666;margin-bottom:7px;\">Rue Eugène-Marziano 25, 1227 Genève<br></div><div><span class=\"colour\" style=\"color:rgb(212, 68, 68)\"><b><span class=\"font\" style=\"font-family:Arial\"><span class=\"size\" style=\"font-size:12px\">Swiss Made</span></span></b></span><span class=\"colour\" style=\"color:rgb(224, 224, 224)\">&nbsp;|&nbsp;</span><span class=\"colour\" style=\"color:rgb(102, 102, 102)\"><span class=\"font\" style=\"font-family:Arial\"><span class=\"size\" style=\"font-size:12px\">ISO 27001 14001 50001 9001</span></span></span><br></div></div></div><p><br></p></div><div style=\"font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><br></div><div><div>---------- Message transféré ---------<br></div><div>De : STUDIO &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:studio@ktfm.ch\">studio@ktfm.ch</a>&gt;<br></div><div>Date : 2025-01-23T18:13:00.000+01:00<br></div><div>Sujet : Plan définitif<br></div><div>À : Laura Baudet &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:laura.baudet@infomaniak.com\">laura.baudet@infomaniak.com</a>&gt;, Laura Cid &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:laura.cid@infomaniak.com\">laura.cid@infomaniak.com</a>&gt;, François Corthesy &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:francois.corthesy@infomaniak.com\">francois.corthesy@infomaniak.com</a>&gt;, Laporte Eric &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:eric.laporte@infomaniak.com\">eric.laporte@infomaniak.com</a>&gt;, mikael Lopes &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:mikael.lopes@infomaniak.com\">mikael.lopes@infomaniak.com</a>&gt;, René Luria &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:rene.luria@infomaniak.com\">rene.luria@infomaniak.com</a>&gt;, Tarek Oumhamdi &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:tarek.oumhamdi@infomaniak.com\">tarek.oumhamdi@infomaniak.com</a>&gt;, Michael Parent &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:michael.parent@infomaniak.com\">michael.parent@infomaniak.com</a>&gt;, Adrien Pedrina &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:adrien.pedrina@infomaniak.com\">adrien.pedrina@infomaniak.com</a>&gt;, Philipp Potocnik &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:philipp.potocnik@infomaniak.com\">philipp.potocnik@infomaniak.com</a>&gt;, Boris Siegenthaler &lt;<a class=\"defaultMailLink defaultMailLink\" href=\"mailto:boris@infomaniak.com\">boris@infomaniak.com</a>&gt;<br></div><div><br></div><div><br></div><pre style=\"white-space:normal;\"><div>Bonjour toutes et tous,<br></div><div>Voici le plan définitif, n’ayant pas eu le retour de tous le monde, l’horaire de l’après-midi reste inchangé.<br></div><div>Je me réjouis de vous accueillir et j’espère que vous passerez un bon moment.<br></div><div><br></div><div>Bien à vous toutes et tous.<br></div><div><br></div><div>Benjamin<br></div></pre></div><div style=\"font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><br></div></div></div></body></html>\r\n\r\n",
+            "type": "text/html",
+            "subBody": null
+        },
+        "has_attachments": true,
+        "attachments_resources": "/api/mail/4e617836-f371-3b26-b65b-0c0fd3dd360e/folder/eJxzCnVXCAlydPYGAAw0AnQ-/message/3/attachmentsArchive",
+        "attachments": [
+            {
+                "part_id": "2.2",
+                "mime_type": "application/pdf",
+                "encoding": "base64",
+                "size": 92944,
+                "name": "DEF_2301_PrePLAN_REC_INFOMANIAK.pdf",
+                "disposition": "inline",
+                "content_id": "0a10b86aaf1d1b2eafa4dee96fd57090@swift.generated",
+                "resource": "/api/mail/4e617836-f371-3b26-b65b-0c0fd3dd360e/folder/eJxzCnVXCAlydPYGAAw0AnQ-/message/3/attachment/2.2",
+                "drive_url": null
+            }
+        ],
+        "drive_url": "",
+        "seen": true,
+        "forwarded": false,
+        "answered": false,
+        "flagged": false,
+        "scheduled": false,
+        "preview": "Salut Jordan, voici l'e-mail K INFOMANIAK Mikael Lopes | Marketing Manager    Rue Eugène-Marziano 25, 1227 Genève SWISS MADE | ISO 27001 14001 50001 9001 ---------- Message transféré --------- De : Mi",
+        "size": 108149,
+        "bimi": {
+            "svg_content": "/api/bimi/855",
+            "is_certified": true
+        },
+        "safe_display": false,
+        "acknowledge": "none"
+    }
+}
