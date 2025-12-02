@@ -16,18 +16,27 @@ func wrongIdsCombinated(_ input: String) -> Int {
 
 		for testedId in firstId...lastId {
 			let size = String(testedId).count
-			guard size % 2 == 0 else { continue }
+			guard size > 1 else { continue }
 
 			let stringId = String(testedId)
-			if stringId.dropFirst(size / 2) == stringId.dropLast(size / 2) {
-				total += testedId
+			var divider = 1
+			//print(testedId)
+			while divider < stringId.count {
+				let splitted = stringId.chunks(size: divider)
+				guard splitted.count > 1 else { break }
+
+				if Set(splitted).count == 1 {
+					total += testedId
+					break
+				}
+				divider += 1
 			}
 		}
 	}
 	return total
 }
 
-print(wrongIdsCombinated(testInput))
+//print(wrongIdsCombinated(testInput))
 
 do {
 	let entryFile = try String(contentsOfFile: "input", encoding: .utf8)
@@ -35,4 +44,15 @@ do {
 } catch {
 	print("error decoding file")
 	fatalError()
+}
+
+extension String {
+	func chunks(size: Int) -> [String] {
+		guard size > 0 else { return [] }
+		return stride(from: 0, to: count, by: size).map {
+			let start = index(startIndex, offsetBy: $0)
+			let end = index(start, offsetBy: size, limitedBy: endIndex) ?? endIndex
+			return String(self[start..<end])
+		}
+	}
 }
