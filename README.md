@@ -1,2 +1,2 @@
-# advent_of_code_2024
-My solutions to the Advent of code 2024
+# Advent of code
+My solutions to [the Advent of code](https://adventofcode.com)
